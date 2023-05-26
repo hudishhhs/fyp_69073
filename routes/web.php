@@ -25,6 +25,3 @@ Route::get('/home', [LessonController::class, 'index'])->name('home');
 
 Route::get('/lessons', [LessonController::class, 'index'])->name('lessons.index');
 Route::get('/lessons/{id}', [LessonController::class, 'show'])->name('lessons.show');
-
-Route::get('/editor', [EditorController::class, 'index']);
-Route::post('/tryit/run', [EditorController::class, 'run'])->name('tryit.run');
