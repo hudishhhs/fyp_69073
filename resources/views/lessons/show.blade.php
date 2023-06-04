@@ -29,8 +29,8 @@
 
             @isset ($currentLesson -> pre)
             <div class="card-footer">   
-            <a href="{{ $currentLesson -> pre }}" class="btn btn-primary float-right">Pre</a>
-            <a href="{{ $currentLesson -> post }}" class="btn btn-primary float-right">Post</a>
+            <a href="{{ $currentLesson -> pre }}" class="btn btn-primary float-right">Pre-implementation Result</a>
+            <a href="{{ $currentLesson -> post }}" class="btn btn-primary float-right">Post-implementation Result</a>
             @endisset
 
 </div>
